@@ -1,0 +1,45 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.ul-item li.active{
+    display: none;
+}
+
+.ul-item li{
+    display: block;
+    line-height: 30px;
+    position: relative;
+}
+
+
+h2 {
+    justify-content: center;
+    color:cornflowerblue;
+    font-size: 50px;
+    padding: 2% 10% 2% 10%;
+}
+
+section{
+    position: relative;
+    left: 25%;
+}
+
+.ul-item {
+    position: relative;
+    left: -40px;
+}
+
+#filter{
+    height: 30px;
+    width: 20%;
+    outline: none;
+    font-size: large;
+}
+
+#filter:focus{
+    background-color: azure;
+}
+
